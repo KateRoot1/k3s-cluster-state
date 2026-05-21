@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
   - sources/ingress-nginx.yaml
   - controllers/ingress-nginx.yaml
+  - sources/sealed-secrets.yaml      # Добавлено
+  - controllers/sealed-secrets.yaml   # Добавлено
